@@ -1,0 +1,86 @@
+.homeHeaderBg {
+    background-color: var(--primary);
+    height: 900px;
+    padding: 8rem 0 0 0;
+    position: relative;
+    
+}
+.homeHeaderBg::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    background-image: url(../../img/home/headercloud.webp);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    bottom: -2rem;
+    height: 350px;
+}
+
+.homeHeaderEnrollBtn {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.homeHeaderEnrollBtn img {
+    position: absolute;
+}
+
+.homeHeaderEnrollBtn p {
+    font-family: enrollBtn;
+    color: var(--white);
+    font-size: 14px;
+    z-index: 99;
+    margin: 2.3rem 1.5rem;
+    transform: rotate(358deg);
+}
+
+.homeHeaderSlider .swiper {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+
+.homeHeaderSlider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+
+.headerSliderImg{
+    border: 10px solid var(--white);
+    border-radius: 12px;
+    box-shadow: 0px 0px 15.443px rgba(0, 0, 0, 0.31);
+    margin: 1rem;
+    background-color: var(--white);
+}
+
+.homeHeaderSlider{
+    margin-top: 3rem;
+}
+.homeHeaderSlider .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: -3rem;
+}
+.homeHeaderSlider .swiper-pagination-bullet{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid var(--white);
+}

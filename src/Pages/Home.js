@@ -1,9 +1,12 @@
+import Header from "./HomeContent/Header"
+import Navigation from "./Includes/Navigation/Navigation"
 
 
 const Home = (props) => {
     return (
         <>
-            <h1>Home</h1>
+            <Navigation />
+            <Header />
         </>
     )
 }

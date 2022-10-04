@@ -45,7 +45,10 @@ body {
   font-family: extrabold;
   src: url(./font/Nunito-ExtraBold.ttf);
 }
-
+@font-face {
+  font-family: enrollBtn;
+  src: url(./font/KGTenThousandReasons.ttf);
+}
 html {
   scroll-behavior: smooth;
 }
