@@ -1,0 +1,99 @@
+.footerEnrollBg{
+    background-color: var(--dark);
+    padding: 2rem 0;
+}
+.footerEnroll ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    font-family: semibold;
+}
+.footerEnroll ul li{
+    font-size: 40px;
+    color: var(--white);
+}
+.footerEnroll ul li button{
+    background-color: var(--white);
+    padding: 10px 50px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: semibold;
+    border: none;
+    outline: none;
+}
+
+.footerBg{
+    background-color: var(--tertiary);
+    padding: 0 0 4rem 0;
+    position: relative;
+}
+.footerBg::after{
+    position: absolute;
+    content: '';
+    width: 332px;
+    height: 380px;
+    top: 0;
+    left: 0;
+    background-image: url(../../../img/icons/leftPlant.webp);
+}
+.footerBg::before{
+    position: absolute;
+    content: '';
+    width: 332px;
+    height: 380px;
+    top: 0;
+    right: 0;
+    background-image: url(../../../img/icons/rightPlant.webp);
+}
+.footerList{
+    padding-left: 4rem;
+}
+.footerList h4{
+    font-size: 20px;
+    font-family: boldfont;
+    margin-top: 1.5rem;
+}
+.footerList ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.footerList ul li{
+    margin-top: 1rem;
+    font-family: mediumfont;
+    font-size: 18px;
+}
+.footerList ul li a{
+    color: var(--dark);
+    font-family: mediumfont;
+}
+.copyrightBox {
+    border-top: 1px solid var(--dark);
+    margin-top: 3rem;
+}
+.copyrightBox p{
+    margin: 10px 0;
+    font-family: semibold;
+    color: var(--dark);
+}
+.copyrightBox p a{
+    color: var(--dark);
+    font-family: semibold;
+}
+.footerSocialLinks{
+    text-align: center;
+}
+.footerSocialLinks ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerSocialLinks ul li{
+    margin: 0 10px;
+}
