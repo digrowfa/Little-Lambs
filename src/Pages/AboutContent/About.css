@@ -1,0 +1,182 @@
+.aboutHeaderBg {
+    margin-top: 13rem;
+    position: relative;
+    padding: 0 0 6rem 0;
+}
+
+.aboutHeaderBg::after {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 500px;
+    background-color: #FFA4CA;
+    border-radius: 50%;
+    top: 0;
+    right: -10rem;
+}
+
+.aboutHeaderBg::before {
+    position: absolute;
+    content: '';
+    width: 500px;
+    height: 500px;
+    background-color: #9CFFA0;
+    border-radius: 50%;
+    top: 15rem;
+    left: -10rem;
+    opacity: 0.5;
+}
+
+.aboutTitle h2 {
+    color: var(--primary);
+}
+
+.headerImgBox {
+    margin-top: 4rem;
+}
+
+.headerImage img {
+    border-radius: 30px;
+    margin-top: 1.5rem;
+}
+
+.headerImage.start {
+    margin-top: 9rem;
+}
+
+.headerImage.start img:first-child {
+    max-width: 85%;
+    float: right;
+}
+
+.headerImage.end {
+    margin-top: 4rem;
+}
+
+/* ========founder words======= */
+.founderWords {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.founderWords h4 {
+    width: max-content;
+    margin: 2rem auto;
+    font-family: boldfont;
+    color: var(--secondary);
+    position: relative;
+    background-color: var(--white);
+    padding: 0 1rem;
+}
+
+.founderWords h4::before {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: var(--secondary);
+    top: 50%;
+    left: -3rem;
+    transform: translate(-50%, -50%);
+}
+
+.founderWords h4::after {
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background-color: var(--secondary);
+    top: 50%;
+    right: -9.5rem;
+    transform: translate(-50%, -50%);
+}
+
+.founderWords p {
+    font-size: 23px;
+    letter-spacing: 0.09em;
+    text-transform: capitalize;
+    color: #6A6A6A;
+}
+.aboutWhyLLN{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutWhyLLN h4 {
+    font-family: title;
+    color: var(--primary);
+    font-size: 26px;
+}
+
+.aboutWhyLLN p {
+    text-transform: capitalize;
+    color: #656565;
+    font-size: 23px;
+    margin: 1rem 0;
+}
+.aboutWhyLLN img{
+    max-width: 90%;
+    float: right;
+    margin-top: 2rem;
+}
+
+/* ========end============ */
+
+/* =============my child========== */
+.myChildContent{
+    margin: 3rem 0;
+    text-align: center;
+}
+.myChildContent h4{
+    font-family: title;
+    font-size: 30px;
+    color: var(--secondary);
+}
+.myChildContent p{
+    font-size: 23px;
+    color: #656565;
+    margin-top: 2rem;
+    text-transform: capitalize;
+}
+.myChildSubject{
+    margin-top: 2rem;
+}
+.myChildSubject ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myChildSubject ul li{
+    width: 234px;
+    height: 234px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-family: boldfont;
+    font-size: 28px;
+    text-align: center;
+    padding: 1rem;
+}
+.myChildSubject ul li:nth-child(1){
+    background-color: var(--secondary);
+}
+.myChildSubject ul li:nth-child(2){
+    background-color: var(--tertiary);
+}
+.myChildSubject ul li:nth-child(3){
+    background-color: var(--primary);
+}
+.myChildSubject ul li:nth-child(4){
+    background-color: var(--secondary);
+}
+.myChildSubject ul li:nth-child(5){
+    background-color: var(--tertiary);
+}
+
+/* ================end============ */

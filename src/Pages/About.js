@@ -1,7 +1,17 @@
-const About = () => {
+import Navigation from './Includes/Navigation/Navigation'
+import Footer from './Includes/Footer/Footer'
+import Header from './AboutContent/Header'
+import FounderWord from './AboutContent/FounderWord'
+import MyChild from './AboutContent/MyChild'
+
+const About = (props) => {
     return(
         <>
-            <h1>About Us</h1>
+            <Navigation />
+            <Header />
+            <FounderWord />
+            <MyChild />
+            <Footer />
         </>
     )
 }
