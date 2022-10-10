@@ -3,6 +3,7 @@ import Footer from './Includes/Footer/Footer'
 import Header from './AboutContent/Header'
 import FounderWord from './AboutContent/FounderWord'
 import MyChild from './AboutContent/MyChild'
+import Founder from './AboutContent/Founder'
 
 const About = (props) => {
     return(
@@ -11,6 +12,7 @@ const About = (props) => {
             <Header />
             <FounderWord />
             <MyChild />
+            <Founder />
             <Footer />
         </>
     )
