@@ -18,7 +18,7 @@ const Header = () => {
                                 </div>
                             </div>    
                         </div>
-                        <div className='headerImgBox'>
+                        <div className='headerImgBox'> 
                         <div className="row d-flex justify-content-center">
                             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
                                 <div className="headerImage start">
