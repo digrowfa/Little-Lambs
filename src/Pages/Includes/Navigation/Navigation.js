@@ -40,8 +40,11 @@ const Navigation = () => {
                                         <Link to="/about-us">
                                             <li>About us</li>
                                         </Link>
-                                        <Link to="/curriculam">
+                                        <Link to="/curriculum">
                                             <li>curriculam</li>
+                                        </Link>
+                                        <Link to="/gallery">
+                                            <li>GALLERY</li>
                                         </Link>
                                         <Link to="/contact-us">
                                             <li>contact us</li>
