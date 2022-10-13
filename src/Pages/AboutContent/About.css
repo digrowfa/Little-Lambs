@@ -13,6 +13,7 @@
     border-radius: 50%;
     top: 0;
     right: -10rem;
+    z-index: -1;
 }
 
 .aboutHeaderBg::before {

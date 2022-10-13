@@ -1,7 +1,15 @@
+import Navigation from './Includes/Navigation/Navigation'
+import Footer from './Includes/Footer/Footer'
+import Header from './ContactContent/Header'
+import ContactForm from './ContactContent/ContactForm'
+
 const Contact = () => {
     return(
         <>
-            <h1>Contact</h1>
+            <Navigation />
+            <Header />
+            <ContactForm />
+            <Footer />
         </>
     )
 }
