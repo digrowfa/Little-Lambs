@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom"
 import About from "../Pages/About"
 import Contact from "../Pages/Contact"
 import Curriculum from "../Pages/Curriculum"
+import Difference from "../Pages/Difference"
 import Gallery from "../Pages/Gallery"
 import Home from "../Pages/Home"
 import ScrollToTop from "../Pages/ScrollToTop"
@@ -16,6 +17,7 @@ const CommonRoutes = () => {
                     <Route path="/curriculum" element={<Curriculum />} />
                     <Route path="/gallery" element={<Gallery />} />
                     <Route path="/contact-us" element={<Contact />} />
+                    <Route path="/LLN-the-difference" element={<Difference />} />
                 </Routes>
             </ScrollToTop>
         </>

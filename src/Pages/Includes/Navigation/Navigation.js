@@ -43,9 +43,9 @@ const Navigation = () => {
                                         <Link to="/curriculum">
                                             <li>curriculam</li>
                                         </Link>
-                                        <Link to="/gallery">
+                                        {/* <Link to="/gallery">
                                             <li>GALLERY</li>
-                                        </Link>
+                                        </Link> */}
                                         <Link to="/contact-us">
                                             <li>contact us</li>
                                         </Link>

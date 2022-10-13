@@ -10,6 +10,7 @@ import category2 from "../../img/home/category2.webp"
 import category3 from "../../img/home/category3.webp"
 import category4 from "../../img/home/category4.webp"
 import category5 from "../../img/home/category5.webp"
+import { Link } from "react-router-dom"
 
 
 
@@ -63,7 +64,9 @@ const LLNCategory = () => {
                                     <div className="LLNCategoryCardContent">
                                         <h4>LLN the difference</h4>
                                         <img src={card1} alt="card1" className="img-fluid" />
-                                        <button>Explore</button>
+                                        <Link to="/LLN-the-difference">
+                                            <button>Explore</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +78,9 @@ const LLNCategory = () => {
                                     <div className="LLNCategoryCardContent">
                                         <h4>Facilities</h4>
                                         <img src={card2} alt="card1" className="img-fluid" />
-                                        <button>Explore</button>
+                                        <Link to="/">
+                                            <button>Explore</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -87,7 +92,9 @@ const LLNCategory = () => {
                                     <div className="LLNCategoryCardContent">
                                         <h4>Curriculum</h4>
                                         <img src={card3} alt="card1" className="img-fluid" />
-                                        <button>Explore</button>
+                                        <Link to="/">
+                                            <button>Explore</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -100,7 +107,9 @@ const LLNCategory = () => {
                                         <h4>LLN
                                             Programmes</h4>
                                         <img src={card4} alt="card1" className="img-fluid" />
-                                        <button>Explore</button>
+                                        <Link to="/">
+                                            <button>Explore</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +121,9 @@ const LLNCategory = () => {
                                     <div className="LLNCategoryCardContent">
                                         <h4>Offers</h4>
                                         <img src={card5} alt="card1" className="img-fluid" />
-                                        <button>Explore</button>
+                                        <Link to="/">
+                                            <button>Explore</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -124,7 +135,9 @@ const LLNCategory = () => {
                                     <div className="LLNCategoryCardContent">
                                         <h4>Health & Safety</h4>
                                         <img src={card6} alt="card1" className="img-fluid" />
-                                        <button>Explore</button>
+                                        <Link to="/">
+                                            <button>Explore</button>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
