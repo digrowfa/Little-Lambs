@@ -37,12 +37,14 @@
     padding: 5rem 3rem;
     border: 5px dashed var(--primary);
     border-radius: 55px;
+    margin-bottom: 3rem;
 }
 
 .differenceBodyCard ul li {
     font-size: 23px;
     color: #727272;
     margin: 15px 0;
+    text-align: justify;
 }
 
 .differenceBodyText {
@@ -190,4 +192,30 @@
 }
 .LLNOfferBg {
     padding: 8rem 0 5rem 0;
+}
+
+.differenceBodyBg{
+    position: relative;
+}
+
+.differenceBodyBg::after{
+    position: absolute;
+    content: '';
+    width: 493px;
+    height: 493px;
+    background: #FFA4CA;
+    border-radius: 50%;
+    right: -5rem;
+    top: 40rem;
+}
+
+.differenceBodyBg::before{
+    position: absolute;
+    content: '';
+    width: 493px;
+    height: 493px;
+    background: rgba(0, 174, 239, 0.35);
+    border-radius: 50%;
+    left: -7rem;
+    bottom: 20rem;
 }

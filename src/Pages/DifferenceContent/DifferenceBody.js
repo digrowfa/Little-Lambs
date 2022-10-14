@@ -4,11 +4,11 @@ const DifferenceBody = () => {
             <section className="container-fluid p-0">
                 <div className="differenceBodyBg">
                     <div className="container">
-                        <div className="row d-flex justify-content-center">
+                        <div className="row d-flex justify-content-center mb-5">
                             <div className="col-lg-9">
                                 <div className="differenceBodyCard">
                                     <ul>
-                                        <li>LLN engages children in highest quality learning by creating an environment both indoors and outdoors which is healthy, age appropriate, enabling, relevant, enjoyable, stimulating, meaningful, active and inviting.</li>
+                                        <li>Little Lambs Nursery engages children in highest quality learning by creating an environment both indoors and outdoors which is healthy, age appropriate, enabling, relevant, enjoyable, stimulating, meaningful, active and inviting.</li>
                                         <li>We build on the changes by regularly exploring new technologies and innovation</li>
                                         <li>Follow the age appropriate milestones called as ‘Learning Ladder’ which will help in early detection of any learning disabilities and support the teacher to plan ahead in partnership with the parents</li>
                                         <li>Conduct ongoing assessments and observations</li>
@@ -33,7 +33,7 @@ const DifferenceBody = () => {
                             </div>
                             <div className="col-lg-9">
                                 <div className="differenceBodyApproachTitle">
-                                    <p>Approach of LLN-</p>
+                                    <p>Approach of Little Lambs Nursery-</p>
                                 </div>
                             </div>
                             <div className="col-lg-9">

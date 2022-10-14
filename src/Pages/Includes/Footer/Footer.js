@@ -17,7 +17,7 @@ const Footer = () => {
                             <div className="col-lg-12">
                                 <div className="footerEnroll">
                                     <ul>
-                                        <li>Enroll Your Child At LLN</li>
+                                        <li>Enroll Your Child At Little Lambs Nursery</li>
                                         <li>
                                             <button>Click Here</button>
                                         </li>

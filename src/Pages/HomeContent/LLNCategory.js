@@ -62,7 +62,7 @@ const LLNCategory = () => {
                                         <img src={outline} alt="outline" className="img-fluid" />
                                     </div>
                                     <div className="LLNCategoryCardContent">
-                                        <h4>LLN the difference</h4>
+                                        <h4>Little lambs nursery the difference</h4>
                                         <img src={card1} alt="card1" className="img-fluid" />
                                         <Link to="/LLN-the-difference">
                                             <button>Explore</button>
@@ -78,7 +78,7 @@ const LLNCategory = () => {
                                     <div className="LLNCategoryCardContent">
                                         <h4>Facilities</h4>
                                         <img src={card2} alt="card1" className="img-fluid" />
-                                        <Link to="/">
+                                        <Link to="/facilities">
                                             <button>Explore</button>
                                         </Link>
                                     </div>
@@ -92,7 +92,7 @@ const LLNCategory = () => {
                                     <div className="LLNCategoryCardContent">
                                         <h4>Curriculum</h4>
                                         <img src={card3} alt="card1" className="img-fluid" />
-                                        <Link to="/">
+                                        <Link to="/curriculum">
                                             <button>Explore</button>
                                         </Link>
                                     </div>
@@ -104,7 +104,7 @@ const LLNCategory = () => {
                                         <img src={outline} alt="outline" className="img-fluid" />
                                     </div>
                                     <div className="LLNCategoryCardContent">
-                                        <h4>LLN
+                                        <h4>Little lambs nursery
                                             Programmes</h4>
                                         <img src={card4} alt="card1" className="img-fluid" />
                                         <Link to="/">
@@ -121,7 +121,8 @@ const LLNCategory = () => {
                                     <div className="LLNCategoryCardContent">
                                         <h4>Offers</h4>
                                         <img src={card5} alt="card1" className="img-fluid" />
-                                        <Link to="/">
+                                        
+                                        <Link to="/offers">
                                             <button>Explore</button>
                                         </Link>
                                     </div>
@@ -135,7 +136,7 @@ const LLNCategory = () => {
                                     <div className="LLNCategoryCardContent">
                                         <h4>Health & Safety</h4>
                                         <img src={card6} alt="card1" className="img-fluid" />
-                                        <Link to="/">
+                                        <Link to="/health-and-safety">
                                             <button>Explore</button>
                                         </Link>
                                     </div>

@@ -106,6 +106,7 @@
     letter-spacing: 0.09em;
     text-transform: capitalize;
     color: #6A6A6A;
+    text-align: justify;
 }
 
 .aboutWhyLLN {
@@ -126,6 +127,7 @@
     color: #656565;
     font-size: 23px;
     margin: 1rem 0;
+    text-align: justify;
 }
 
 .aboutWhyLLN img {
@@ -212,7 +214,7 @@
     letter-spacing: 0.09em;
     text-transform: capitalize;
     color: #6A6A6A;
-
+    text-align: justify;
 }
 
 .myChlidContent h2 {
@@ -271,6 +273,7 @@
     text-transform: capitalize;
     color: var(--white);
     margin: 3rem 0;
+    text-align: justify;
 }
 
 .founderCard{
@@ -290,6 +293,7 @@
     letter-spacing: 0.09em;
     text-transform: capitalize;
     color: var(--white);
+    text-align: justify;
 }
 
 .founderAnimationCircle {
@@ -313,32 +317,32 @@
 
 .founderAnimationCircle.circle1{
     background-color: var(--secondary);
-    animation: circle1 20s infinite;
+    animation: circle1 10s infinite;
 }
 
 .founderAnimationCircle.circle2{
     background-color: var(--tertiary);
-    animation: circle2 20s infinite;
+    animation: circle2 10s infinite;
 }
 
 .founderAnimationCircle.circle3{
     background-color: #0085B7;
-    animation: circle3 20s infinite;
+    animation: circle3 10s infinite;
 }
 
 .founderAnimationCircle.circle4{
     background-color: #9A2C5A;
-    animation: circle4 20s infinite;
+    animation: circle4 10s infinite;
 }
 
 .founderAnimationCircle.circle5{
     background-color: #84D3FF;
-    animation: circle5 20s infinite;
+    animation: circle5 10s infinite;
 }
 
 .founderAnimationCircle.circle6{
     background-color: #7929FF;
-    animation: circle6 20s infinite;
+    animation: circle6 10s infinite;
 }
 
 @keyframes circle1 {

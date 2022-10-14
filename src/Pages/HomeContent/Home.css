@@ -111,7 +111,7 @@
     height: 400px;
     width: 85%;
     margin: 5rem auto auto auto;
-    padding: 2rem;
+    padding: 2rem 1.5rem;
 }
 
 .whyLLCardIcon {
@@ -143,9 +143,11 @@
     margin: 2rem 0 2rem 0;
 }
 
-.whyLLCardContent p {
-    opacity: 0.6;
+.whyLLCardContent p{
+    text-align: justify;
 }
+
+
 
 .whyLLBg {
     position: relative;
@@ -267,7 +269,7 @@
     margin-top: 6rem;
 }
 .LLNCategoryCardContent h4{
-    font-size: 38px;
+    font-size: 30px;
     color: var(--primary);
     text-align: center;
     font-family: semibold;
@@ -275,6 +277,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: capitalize;
 }
 .LLNCategoryCardContent button{
     width: 100%;

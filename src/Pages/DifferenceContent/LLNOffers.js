@@ -32,7 +32,7 @@ const LLNOffers = () => {
                                         </div>
                                         <div className='LLNOfferCardContent'>
                                             <ul>
-                                                <li><span>05% </span> DISCOUNT</li>
+                                                <li><span>5% </span> DISCOUNT</li>
                                                 <li>Termly payment </li>
                                                 <li>first term</li>
                                                 <li>(Sept-dec)</li>

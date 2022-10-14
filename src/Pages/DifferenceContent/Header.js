@@ -16,7 +16,7 @@ const Header = () => {
                             <div className="col-lg-12">
                                 <div className="title aboutTitle">
                                     <h2>THE DIFFERENCE</h2>
-                                    <p>WHY CHOOSE LLN</p>
+                                    <p>WHY CHOOSE Little Lambs Nursery</p>
                                 </div>
                             </div>
                         </div>

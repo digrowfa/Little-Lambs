@@ -23,7 +23,7 @@ const WhyLL = () => {
                                     </div>
                                     <div className="whyLLCardContent">
                                         <h4>Healthy Learning <br />Environment</h4>
-                                        <p>LLN engages children in highest quality
+                                        <p>Little Lambs Nursery engages children in highest quality
                                             learning by creating an environment both
                                             indoors and outdoors which is healthy, age
                                             appropriate, enabling, relevant, enjoyable,
@@ -49,7 +49,7 @@ const WhyLL = () => {
                                     </div>
                                     <div className="whyLLCardContent">
                                         <h4>Early Year Foundation <br />Stage based Learning</h4>
-                                        <p>LLN Follows EYFS based learning programme,
+                                        <p>Little Lambs Nursery Follows EYFS based learning programme,
                                             the first curriculum in England to cross the
                                             division between pre-school and school.</p>
                                     </div>

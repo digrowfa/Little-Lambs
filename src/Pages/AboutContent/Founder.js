@@ -9,7 +9,7 @@ const Founder = () => {
                                 <div className="founderContent">
                                     <h2>I, Dr. Yogita Maledan and the founder of Little Lambs Nursery<br />
                                         takes a pledge….</h2>
-                                    <p> At any time, children will always come first. With LLN, every day will be a new learning experience/opportunity for your child. LLN pledges to provide a safe and secure home away from home. As the CEO/ Managing director of Little Lambs Nursery, I would love to invite you to our Al Karama branch to find out more about the way we work, and experience how we have embarked on a positive learning journey with our little ones and the support of our fabulous staff/parents.</p>
+                                    <p> At any time, children will always come first. With LLN, every day will be a new learning experience/opportunity for your child. Little Lambs Nursery pledges to provide a safe and secure home away from home. As the CEO/ Managing director of Little Lambs Nursery, I would love to invite you to our Al Karama branch to find out more about the way we work, and experience how we have embarked on a positive learning journey with our little ones and the support of our fabulous staff/parents.</p>
                                 </div>
                                 <div className="founderCard">
                                     <h4>Vision</h4>
@@ -21,7 +21,7 @@ const Founder = () => {
                                 </div>
                                 <div className="founderCard">
                                     <h4>Values</h4>
-                                    <p>All members of LLN will follow and apply the 6 core values that will build up the pillars of the organization, thereby applying into the curriculum:</p>
+                                    <p>All members of Little Lambs Nursery will follow and apply the 6 core values that will build up the pillars of the organization, thereby applying into the curriculum:</p>
                                 </div>
                             </div>
                         </div>
