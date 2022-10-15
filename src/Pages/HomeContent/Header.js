@@ -33,12 +33,30 @@ const Header = () => {
                                     slidesPerView={3}
                                     spaceBetween={80}
                                     freeMode={true}
-                                    // autoplay={{
-                                    //     delay: 2500,
-                                    //     disableOnInteraction: false,
-                                    // }}
+                                    autoplay={{
+                                        delay: 2500,
+                                        disableOnInteraction: false,
+                                    }}
                                     pagination={{
                                         clickable: true,
+                                    }}
+                                    breakpoints={{
+                                        319: {
+                                            slidesPerView: 1,
+                                            spaceBetween: 20,
+                                        },
+                                        640: {
+                                            slidesPerView: 1,
+                                            spaceBetween: 20,
+                                        },
+                                        768: {
+                                            slidesPerView: 3,
+                                            spaceBetween: 40,
+                                        },
+                                        1024: {
+                                            slidesPerView: 3,
+                                            spaceBetween: 50,
+                                        }
                                     }}
                                     modules={[Autoplay, FreeMode, Pagination]}
                                     className="mySwiper"
