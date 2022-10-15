@@ -58,9 +58,6 @@ const LLNCategory = () => {
                         <div className="row">
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div className="LLNCategoryCard">
-                                    <div className="LLNCategoryCardOutline">
-                                        <img src={outline} alt="outline" className="img-fluid" />
-                                    </div>
                                     <div className="LLNCategoryCardContent">
                                         <h4>Little lambs nursery the difference</h4>
                                         <img src={card1} alt="card1" className="img-fluid" />
@@ -72,9 +69,6 @@ const LLNCategory = () => {
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div className="LLNCategoryCard">
-                                    <div className="LLNCategoryCardOutline">
-                                        <img src={outline} alt="outline" className="img-fluid" />
-                                    </div>
                                     <div className="LLNCategoryCardContent">
                                         <h4>Facilities</h4>
                                         <img src={card2} alt="card1" className="img-fluid" />
@@ -86,9 +80,6 @@ const LLNCategory = () => {
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div className="LLNCategoryCard">
-                                    <div className="LLNCategoryCardOutline">
-                                        <img src={outline} alt="outline" className="img-fluid" />
-                                    </div>
                                     <div className="LLNCategoryCardContent">
                                         <h4>Curriculum</h4>
                                         <img src={card3} alt="card1" className="img-fluid" />
@@ -100,9 +91,6 @@ const LLNCategory = () => {
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div className="LLNCategoryCard">
-                                    <div className="LLNCategoryCardOutline">
-                                        <img src={outline} alt="outline" className="img-fluid" />
-                                    </div>
                                     <div className="LLNCategoryCardContent">
                                         <h4>Little lambs nursery
                                             Programmes</h4>
@@ -115,13 +103,10 @@ const LLNCategory = () => {
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div className="LLNCategoryCard">
-                                    <div className="LLNCategoryCardOutline">
-                                        <img src={outline} alt="outline" className="img-fluid" />
-                                    </div>
                                     <div className="LLNCategoryCardContent">
                                         <h4>Offers</h4>
                                         <img src={card5} alt="card1" className="img-fluid" />
-                                        
+
                                         <Link to="/offers">
                                             <button>Explore</button>
                                         </Link>
@@ -130,9 +115,6 @@ const LLNCategory = () => {
                             </div>
                             <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
                                 <div className="LLNCategoryCard">
-                                    <div className="LLNCategoryCardOutline">
-                                        <img src={outline} alt="outline" className="img-fluid" />
-                                    </div>
                                     <div className="LLNCategoryCardContent">
                                         <h4>Health & Safety</h4>
                                         <img src={card6} alt="card1" className="img-fluid" />

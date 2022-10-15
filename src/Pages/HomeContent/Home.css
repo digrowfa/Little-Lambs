@@ -259,19 +259,20 @@
 
 .LLNCategoryCardContent {
     background-color: var(--white);
-    width: 85%;
-    margin: 1rem;
-    position: absolute;
-    top: 0;
+    width: 100%;
     border: 5px solid #FFD600;
     border-radius: 30px;
     padding: 1.2rem;
-    height: 480px;
+    height: max-content;
 }
 
 .LLNCategoryCard {
-    position: relative;
-    margin-top: 6rem;
+    margin: 6rem auto auto auto;
+    border: 6px solid #fdd602;
+    border-style: dashed;
+    border-radius: 30px;
+    padding: 1rem;
+    width: 85%;
 }
 
 .LLNCategoryCardContent h4 {
@@ -441,10 +442,7 @@
         top: -6rem;
         left: -4rem;
     }
-    .LLNCategoryCardContent{
-        width: 91%;
-        height: auto;
-    }
+    
     .LLNCategoryCardContent h4{
         height: 80px;
         font-size: 24px;
@@ -458,6 +456,7 @@
     }
     .LLNCategoryCard{
         margin-top: 3rem;
+        width: 100%;
     }
     .homeLocationBox{
         width: 100%;
@@ -542,10 +541,7 @@
         top: -6rem;
         left: -4rem;
     }
-    .LLNCategoryCardContent{
-        width: 91%;
-        height: auto;
-    }
+   
     .LLNCategoryCardContent h4{
         height: 80px;
         font-size: 24px;
@@ -559,6 +555,7 @@
     }
     .LLNCategoryCard{
         margin-top: 3rem;
+        width: 100%;
     }
     .homeLocationBox{
         width: 100%;
@@ -643,10 +640,7 @@
         top: -6rem;
         left: -4rem;
     }
-    .LLNCategoryCardContent{
-        width: 87%;
-        height: 476;
-    }
+   
     .LLNCategoryCardContent h4{
         height: 80px;
         font-size: 24px;
@@ -660,6 +654,7 @@
     }
     .LLNCategoryCard{
         margin-top: 3rem;
+        width: 100%;
     }
     .homeLocationBox{
         width: 100%;
@@ -744,10 +739,7 @@
         top: -6rem;
         left: -4rem;
     }
-    .LLNCategoryCardContent{
-        width: 91%;
-        height: auto;
-    }
+ 
     .LLNCategoryCardContent h4{
         height: 80px;
         font-size: 24px;
@@ -761,6 +753,7 @@
     }
     .LLNCategoryCard{
         margin-top: 3rem;
+        width: 100%;
     }
     .homeLocationBox{
         width: 100%;
@@ -791,7 +784,104 @@
     }
 }
 
-@media (min-width: 769px) and (max-width: 991.98px) {}
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .homeHeaderBg{
+        overflow: hidden;
+    }
+    .whyLLBg{
+        overflow: hidden;
+        padding: 0 0 3rem 0;
+    }
+    .whyLLBg::before{
+        width: 150px;
+        height: 150px;
+        top: 0;
+        right: -6rem;
+        z-index: -1;
+    }
+    .whyLLBg::after{
+        width: 150px;
+        height: 150px;
+        left: -6rem;
+        z-index: -1;
+    }
+    .title h2{
+        font-size: 26px;
+    }
+    .whyLLCard{
+        width: 100%;
+        height: 350px;
+        margin: 2rem auto auto auto;
+    }
+    .whyLLCardContent h4{
+        font-size: 20px;
+        margin: 1rem 0 1rem 0;
+    }
+    .whyLLCardContent h4 br{
+        display: none;
+    }
+    .LLNCategoryBg{
+        margin-top: 9rem;
+    }
+    .LLNCategoryBg::before{
+        top: -14rem;
+    }
+    .LLNCategoryName ul{
+        overflow: scroll;
+    }
+    .LLNCategoryBg::after{
+        bottom: -2px;
+    }
+    .LLNCategoryCardBg::after{
+        width: 150px;
+        height: 150px;
+        top: -6rem;
+        left: -4rem;
+    }
+ 
+    .LLNCategoryCardContent h4{
+        height: 80px;
+        font-size: 24px;
+    }
+    .LLNCategoryCardContent button{
+        margin: 3rem 0 0 0;
+        font-size: 20px;
+    }
+    .LLNCategoryCardBg::before{
+        display: none;
+    }
+    .LLNCategoryCard{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    .homeLocationBox{
+        width: 100%;
+    }
+    .homeLocationContent{
+        padding: 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .homeLocationContent p{
+        font-size: 20px;
+    }
+    .homeLocationContent button{
+        margin-bottom: 2rem;
+        
+    }
+    .homeLocationContentMap{
+        padding: 1rem;
+    }
+    .homeLocationContentMap iframe{
+        width: 100%;
+    }
+    .homeLocationBg::after{
+        display: none;
+    }
+}
 
 @media (min-width: 992px) and (max-width: 1023.98px) {}
 
