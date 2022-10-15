@@ -1,0 +1,50 @@
+.facilitiesBodyContent h4 {
+    color: var(--secondary);
+    text-align: center;
+    font-family: semibold;
+    margin-bottom: 3rem;
+}
+
+.facilitiesBodyContent h5 {
+    text-align: center;
+    font-size: 23px;
+    line-height: 40px;
+    font-family: semibold;
+    color: #606060;
+    margin: 3rem 0;
+}
+
+.facilitiesBodyContent p {
+    color: #6A6A6A;
+    font-size: 23px;
+    text-align: justify;
+}
+
+.facilitiesBg {
+    position: relative;
+}
+
+.facilitiesBg::after {
+    position: absolute;
+    content: '';
+    width: 493px;
+    height: 493px;
+    background-color: #FFA4CA;
+    border-radius: 50%;
+    top: 40%;
+    right: -10rem;
+    z-index: -1;
+}
+
+.facilitiesBg::before {
+    position: absolute;
+    content: '';
+    width: 493px;
+    height: 493px;
+    background: rgba(0, 174, 239, 0.35);
+    opacity: 0.5;
+    border-radius: 50%;
+    top: 60%;
+    left: -15rem;
+    z-index: -1;
+}

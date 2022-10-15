@@ -47,6 +47,14 @@
     text-align: justify;
 }
 
+.differenceBodyCard ul dd{
+    font-size: 23px;
+    color: #727272;
+    margin: 15px 0;
+    text-align: justify;
+    margin-left: 4rem;
+}
+
 .differenceBodyText {
     margin: 3rem 0;
     text-align: center;
