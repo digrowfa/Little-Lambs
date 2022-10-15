@@ -107,7 +107,7 @@ const LLNCategory = () => {
                                         <h4>Little lambs nursery
                                             Programmes</h4>
                                         <img src={card4} alt="card1" className="img-fluid" />
-                                        <Link to="/">
+                                        <Link to="/programmes">
                                             <button>Explore</button>
                                         </Link>
                                     </div>

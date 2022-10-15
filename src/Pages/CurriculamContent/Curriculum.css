@@ -67,7 +67,11 @@
     font-family: semibold;
     margin: 3rem 0;
 }
-
+.curriculumTitle{
+    text-transform: uppercase;
+    font-family: semibold;
+    margin-bottom: 1.5rem;
+}
 .curriculumTitle.blue {
     color: var(--primary);
 }

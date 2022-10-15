@@ -8,6 +8,7 @@ import Gallery from "../Pages/Gallery"
 import HealthSafety from "../Pages/HealthSafety"
 import Home from "../Pages/Home"
 import Offers from "../Pages/Offers"
+import Programmes from "../Pages/Programmes"
 import ScrollToTop from "../Pages/ScrollToTop"
 
 const CommonRoutes = () => {
@@ -24,6 +25,7 @@ const CommonRoutes = () => {
                     <Route path="/offers" element={<Offers />} />
                     <Route path="/health-and-safety" element={<HealthSafety />} />
                     <Route path="/facilities" element={<Facilities />} />
+                    <Route path="/programmes" element={<Programmes />} />
                 </Routes>
             </ScrollToTop>
         </>

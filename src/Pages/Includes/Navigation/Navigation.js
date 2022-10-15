@@ -2,7 +2,7 @@ import './Navigation.css'
 import logoCloud from "../../../img/logo/logo_cloud.webp"
 import logo from "../../../img/logo/logo.webp"
 import { Link } from 'react-router-dom'
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Navigation = () => {
 
@@ -23,12 +23,14 @@ const Navigation = () => {
                         <div className="row">
                             <div className="col-lg-3">
                                 <div className="logoBox">
-                                    <div className="logoCloud">
-                                        <img src={logoCloud} alt="logoCloud" className="img-fluid" />
-                                    </div>
-                                    <div className="logo">
-                                        <img src={logo} alt="logo" className="img-fluid" />
-                                    </div>
+                                    <Link to="/">
+                                        <div className="logoCloud">
+                                            <img src={logoCloud} alt="logoCloud" className="img-fluid" />
+                                        </div>
+                                        <div className="logo">
+                                            <img src={logo} alt="logo" className="img-fluid" />
+                                        </div>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="col-lg-9">
