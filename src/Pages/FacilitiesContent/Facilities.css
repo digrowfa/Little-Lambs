@@ -48,3 +48,35 @@
     left: -15rem;
     z-index: -1;
 }
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .facilitiesBg::after{
+        display: none;
+    }
+    .facilitiesBg::before{
+        display: none;
+    }
+    .facilitiesBodyContent p{
+        font-size: 16px;
+    }
+    .facilitiesBodyContent h5{
+        font-size: 20px;
+    }
+    
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {}
+
+@media (min-width: 425px) and (max-width: 575.98px) {}
+
+@media (min-width: 576px) and (max-width: 768.98px) {}
+
+@media (min-width: 769px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1200px) {}
+
+@media (min-width: 1200.98px) and (max-width: 1359px) {}
+
+@media (min-width: 1359.98px) and (max-width: 1440px) {}

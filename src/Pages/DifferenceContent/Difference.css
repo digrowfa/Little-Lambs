@@ -249,6 +249,9 @@
     .differenceBodyCard ul li{
         font-size: 16px;
     }
+    .differenceBodyCard ul dd{
+        font-size: 16px;
+    }
     .differenceBodyBg::after,
     .differenceBodyBg::before{
         display: none;
@@ -275,6 +278,9 @@
         padding: 2rem 1rem;
     }
     .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyCard ul dd{
         font-size: 16px;
     }
     .differenceBodyBg::after,
@@ -305,6 +311,9 @@
     .differenceBodyCard ul li{
         font-size: 16px;
     }
+    .differenceBodyCard ul dd{
+        font-size: 16px;
+    }
     .differenceBodyBg::after,
     .differenceBodyBg::before{
         display: none;
@@ -331,6 +340,9 @@
         padding: 2rem 1rem;
     }
     .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyCard ul dd{
         font-size: 16px;
     }
     .differenceBodyBg::after,
@@ -361,6 +373,9 @@
     .differenceBodyCard ul li{
         font-size: 16px;
     }
+    .differenceBodyCard ul dd{
+        font-size: 16px;
+    }
     .differenceBodyBg::after,
     .differenceBodyBg::before{
         display: none;
@@ -389,6 +404,9 @@
     .differenceBodyCard ul li{
         font-size: 16px;
     }
+    .differenceBodyCard ul dd{
+        font-size: 16px;
+    }
     .differenceBodyBg::after,
     .differenceBodyBg::before{
         display: none;
@@ -415,6 +433,9 @@
         padding: 2rem 1rem;
     }
     .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyCard ul dd{
         font-size: 16px;
     }
     .differenceBodyBg::after,
