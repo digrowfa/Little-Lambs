@@ -249,19 +249,194 @@
     .differenceBodyCard ul li{
         font-size: 16px;
     }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
 }
 
-@media (min-width: 380px) and (max-width: 424.98px) {}
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+}
 
-@media (min-width: 425px) and (max-width: 575.98px) {}
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+}
 
-@media (min-width: 576px) and (max-width: 768.98px) {}
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+}
 
-@media (min-width: 769px) and (max-width: 991.98px) {}
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+}
 
-@media (min-width: 992px) and (max-width: 1023.98px) {}
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+}
 
-@media (min-width: 1024px) and (max-width: 1200px) {}
+@media (min-width: 1024px) and (max-width: 1200px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+    .differenceBodyBg::after,
+    .differenceBodyBg::before{
+        display: none;
+    }
+    .differenceHeaderImgName p{
+        font-size: 18px;
+    }
+    .differenceHeaderImgName{
+        height: 60px;
+    }
+    .differenceBodyText p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachTitle p{
+        font-size: 18px;
+    }
+    .differenceBodyApproachCard p{
+        font-size: 16px;
+    }
+}
 
 @media (min-width: 1200.98px) and (max-width: 1359px) {}
 
