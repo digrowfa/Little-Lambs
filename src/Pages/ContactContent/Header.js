@@ -24,8 +24,10 @@ const Header = () => {
                                     </div>
                                     <div className="contactWaysContent">
                                         <h4>Visit Us Daily:</h4>
-                                        <p>9870 St Vincent Place,<br />
-                                            Glasgow, Dc 45 Fr 45</p>
+                                        <p>Villa no 22
+                                            317- 33rd Street
+                                            Near Mankhool Park/ADCB metro station
+                                            Bur Dubai</p>
                                     </div>
                                 </div>
                             </div>

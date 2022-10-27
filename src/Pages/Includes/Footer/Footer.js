@@ -56,10 +56,10 @@ const Footer = () => {
                                     <h4>INFORMATION</h4>
                                     <ul>
                                         <li>
-                                            <Link to="#">Contact Us</Link>
+                                            <Link to="/contact-us">Contact Us</Link>
                                         </li>
                                         <li>
-                                            <Link to="#">About Us</Link>
+                                            <Link to="/about-us">About Us</Link>
                                         </li>
                                         <li>
                                             <Link to="#">Terms & Condition</Link>
@@ -75,8 +75,7 @@ const Footer = () => {
                                     <h4>ADDRESS</h4>
                                     <ul>
                                         <li>
-                                            9870 St Vincent Place,<br />
-                                            Glasgow, Dc 45 Fr 45
+                                        Villa no 22 317- 33rd Street Near Mankhool Park/ADCB metro station Bur Dubai
                                         </li>
                                     </ul>
 
