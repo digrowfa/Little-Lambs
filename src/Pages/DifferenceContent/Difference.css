@@ -47,7 +47,7 @@
     text-align: justify;
 }
 
-.differenceBodyCard ul dd{
+.differenceBodyCard ul dd {
     font-size: 23px;
     color: #727272;
     margin: 15px 0;
@@ -83,17 +83,19 @@
     padding: 2rem 3rem;
     margin: 2rem 0 0 0;
 }
-.differenceBodyApproachCard p{
+
+.differenceBodyApproachCard p {
     font-size: 23px;
     color: #727272;
     margin: 0;
 }
 
-.LLNOfferCardBox{
+.LLNOfferCardBox {
     display: flex;
     align-items: center;
     width: 100%;
 }
+
 .LLNOfferCard {
     width: 30%;
     height: 450px;
@@ -105,7 +107,8 @@
     position: relative;
     margin-top: 3rem;
 }
-.LLNOfferCard.popular{
+
+.LLNOfferCard.popular {
     width: 40%;
     height: 550px;
     box-shadow: -25.8731px 3.56871px 29.4418px rgba(0, 0, 0, 0.1), 25.8731px 0px 29.4418px rgba(0, 0, 0, 0.1);
@@ -114,37 +117,42 @@
     z-index: 1;
 }
 
-.LLNOfferCardIconBox{
+.LLNOfferCardIconBox {
     display: flex;
     align-items: center;
     padding-bottom: 1rem;
     border-bottom: 2px solid #3d3d3d59;
 }
 
-.LLNOfferCardIcon img{
+.LLNOfferCardIcon img {
     max-width: 60px;
     margin-right: 1rem;
 }
-.LLNOfferCardName h4{
+
+.LLNOfferCardName h4 {
     margin: 0;
     font-family: boldfont;
 }
-.LLNOfferCardContent ul{
+
+.LLNOfferCardContent ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-.LLNOfferCardContent ul li{
+
+.LLNOfferCardContent ul li {
     font-size: 18px;
     font-family: mediumfont;
     text-transform: capitalize;
     margin: 1rem 0 0 0;
 }
-.LLNOfferCardContent ul li span{
+
+.LLNOfferCardContent ul li span {
     font-size: 50px;
     font-family: boldfont;
 }
-.LLNOfferCardContent button{
+
+.LLNOfferCardContent button {
     width: 87%;
     background-color: var(--primary);
     color: var(--white);
@@ -160,53 +168,58 @@
     font-family: semibold;
     font-size: 18px;
 }
-.LLNOfferCardContent button img{
+
+.LLNOfferCardContent button img {
     margin-left: 10px;
 }
 
-.LLNOfferCard.popular .LLNOfferCardIcon img{
+.LLNOfferCard.popular .LLNOfferCardIcon img {
     max-width: 80px;
 }
 
-.LLNOfferCard.popular .LLNOfferCardName h4{
+.LLNOfferCard.popular .LLNOfferCardName h4 {
     color: var(--white);
     font-size: 40px;
 }
 
-.LLNOfferCard.popular .LLNOfferCardContent ul li{
+.LLNOfferCard.popular .LLNOfferCardContent ul li {
     font-size: 24px;
     color: var(--white);
 }
-.LLNOfferCard.popular .LLNOfferCardContent ul li span{
+
+.LLNOfferCard.popular .LLNOfferCardContent ul li span {
     font-size: 60px;
 }
 
-.LLNOfferCard.popular .LLNOfferCardContent button{  
+.LLNOfferCard.popular .LLNOfferCardContent button {
     padding: 25px;
     font-size: 20px;
 }
 
-.LLNOfferTitle{
+.LLNOfferTitle {
     text-align: center;
 }
-.LLNOfferTitle h2{
-    font-family:title;
+
+.LLNOfferTitle h2 {
+    font-family: title;
     color: var(--secondary);
     font-size: 50px;
 }
-.LLNOfferTitle p{
+
+.LLNOfferTitle p {
     color: var(--primary);
     font-size: 23px;
 }
+
 .LLNOfferBg {
     padding: 8rem 0 5rem 0;
 }
 
-.differenceBodyBg{
+.differenceBodyBg {
     position: relative;
 }
 
-.differenceBodyBg::after{
+.differenceBodyBg::after {
     position: absolute;
     content: '';
     width: 493px;
@@ -217,7 +230,7 @@
     top: 40rem;
 }
 
-.differenceBodyBg::before{
+.differenceBodyBg::before {
     position: absolute;
     content: '';
     width: 493px;
@@ -227,3 +240,29 @@
     left: -7rem;
     bottom: 20rem;
 }
+
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .differenceBodyCard{
+        padding: 2rem 1rem;
+    }
+    .differenceBodyCard ul li{
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {}
+
+@media (min-width: 425px) and (max-width: 575.98px) {}
+
+@media (min-width: 576px) and (max-width: 768.98px) {}
+
+@media (min-width: 769px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1200px) {}
+
+@media (min-width: 1200.98px) and (max-width: 1359px) {}
+
+@media (min-width: 1359.98px) and (max-width: 1440px) {}

@@ -5,7 +5,7 @@ const ContactForm = () => {
                 <div className="contactFormBg">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-12">
+                            <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                                 <div className="contactFormBox">
                                     <form>
                                         <div className="contactFormTitle">
@@ -25,13 +25,13 @@ const ContactForm = () => {
                                             </div>
                                         </div>
                                         <div className="formGroup row">
-                                            <div className="col-6">
+                                            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                                                 <div class="form-floating mb-3">
                                                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="email" />
                                                     <label for="floatingInput">Email address</label>
                                                 </div>
                                             </div>
-                                            <div className="col-6">
+                                            <div className="col-lg-6 col-md-6 col-sm-12 col-12">
                                                 <div class="form-floating mb-3">
                                                     <input type="number" class="form-control" id="floatingInput" placeholder="9555271705" name="number" />
                                                     <label for="floatingInput">Phone Number</label>
