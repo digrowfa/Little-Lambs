@@ -31,7 +31,7 @@ const Header = () => {
                                     <img src={header4} alt="header image" className='img-fluid' />
                                 </div>
                             </div>  
-                            <div className="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
                                 <div className="headerImage end">
                                     <img src={header5} alt="header image" className='img-fluid' />
                                     <img src={header1} alt="header image" className='img-fluid' />
