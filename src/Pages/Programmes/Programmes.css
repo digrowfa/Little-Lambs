@@ -72,7 +72,8 @@
     font-size: 26px;
     text-transform: uppercase;
 }
-.programBodyContent h5{
+
+.programBodyContent h5 {
     margin: 5rem 0;
     font-size: 25px;
     color: #141414;
@@ -376,46 +377,114 @@
     background-size: 100px;
 }
 
-.SSEPCard p{
+.SSEPCard p {
     font-size: 26px;
     font-family: extrabold;
     text-align: center;
     margin: 0;
     text-transform: capitalize;
 }
-.SSEPCard.card1{
+
+.SSEPCard.card1 {
     background-image: url(../../img/program/1.webp);
 }
-.SSEPCard.card2{
+
+.SSEPCard.card2 {
     background-image: url(../../img/program/2.webp);
 }
-.SSEPCard.card3{
+
+.SSEPCard.card3 {
     background-image: url(../../img/program/3.webp);
 }
-.SSEPCard.card4{
+
+.SSEPCard.card4 {
     background-image: url(../../img/program/4.webp);
 }
-.SSEPCard.card5{
+
+.SSEPCard.card5 {
     background-image: url(../../img/program/5.webp);
 }
-.SSEPCard.card6{
+
+.SSEPCard.card6 {
     background-image: url(../../img/program/6.webp);
 }
-.SSEPCard.card1 p{
+
+.SSEPCard.card1 p {
     color: #FF7070;
 }
-.SSEPCard.card2 p{
+
+.SSEPCard.card2 p {
     color: #FFE352;
 }
-.SSEPCard.card3 p{
+
+.SSEPCard.card3 p {
     color: #45DE5E;
 }
-.SSEPCard.card4 p{
+
+.SSEPCard.card4 p {
     color: #3DB9FF;
 }
-.SSEPCard.card5 p{
+
+.SSEPCard.card5 p {
     color: #925FFF;
 }
-.SSEPCard.card6 p{
+
+.SSEPCard.card6 p {
     color: #F68BE5;
 }
+
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .programBodyContent p{
+        font-size: 16px;
+    }
+    .programBodyContent h4{
+        font-size: 20px;
+    }
+    .programBodyCard p{
+        font-size: 20px;
+    }
+    .programBodyCircleCardBox ul{
+        display: inherit;
+    }
+    .programBodyCircleCardBox ul li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShapeBox ul{
+        display: inherit;
+    }
+    .progremHexagonShapeBox ul li{
+        margin-bottom: 1.5rem;
+    }
+    .progremHexagonShape p{
+        font-size: 20px;
+    }
+    .SSEPCardBox ul{
+        justify-content: center;
+    }
+    .porgramCategoryCard p{
+        font-size: 20px;
+    }
+    .SSEPCard p{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {}
+
+@media (min-width: 425px) and (max-width: 575.98px) {}
+
+@media (min-width: 576px) and (max-width: 768.98px) {}
+
+@media (min-width: 769px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1200px) {}
+
+@media (min-width: 1200.98px) and (max-width: 1359px) {}
+
+@media (min-width: 1359.98px) and (max-width: 1440px) {}
