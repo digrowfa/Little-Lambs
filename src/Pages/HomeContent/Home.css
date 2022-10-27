@@ -392,6 +392,9 @@
     .homeHeaderBg{
         overflow: hidden;
     }
+    .homeHeaderEnrollBtn p{
+        margin: 1.5rem 1.5rem;
+    }
     .whyLLBg{
         overflow: hidden;
         padding: 0 0 3rem 0;
@@ -490,6 +493,9 @@
 @media (min-width: 380px) and (max-width: 424.98px) {
     .homeHeaderBg{
         overflow: hidden;
+    }
+    .homeHeaderEnrollBtn p{
+        margin: 1.5rem 1.5rem;
     }
     .whyLLBg{
         overflow: hidden;
@@ -590,6 +596,9 @@
     .homeHeaderBg{
         overflow: hidden;
     }
+    .homeHeaderEnrollBtn p{
+        margin: 1.5rem 1.5rem;
+    }
     .whyLLBg{
         overflow: hidden;
         padding: 0 0 3rem 0;
@@ -688,6 +697,9 @@
 @media (min-width: 576px) and (max-width: 768.98px) {
     .homeHeaderBg{
         overflow: hidden;
+    }
+    .homeHeaderEnrollBtn p{
+        margin: 1.5rem 1.5rem;
     }
     .whyLLBg{
         overflow: hidden;
