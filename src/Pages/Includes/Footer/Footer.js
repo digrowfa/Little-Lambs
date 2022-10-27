@@ -82,8 +82,8 @@ const Footer = () => {
                                     <h4>TIMINGS</h4>
                                     <ul>
                                         <li>
-                                            Monday - Friday<br />
-                                            8:00 AM- 5:00 PM
+                                            Monday - Saturday<br />
+                                            7:30 AM- 5:00 PM
                                         </li>
                                     </ul>
                                 </div>
