@@ -39,7 +39,7 @@ const Header = () => {
                                     <div className="contactWaysContent">
                                         <h4>Call Us:</h4>
                                         <p>
-                                            <a href="tel:1234567890">+1 1234567890</a>
+                                            <a href="tel:+971 504812715">+971 504812715</a>
                                         </p>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@ const Header = () => {
                                     <div className="contactWaysContent">
                                         <h4>Mail Us:</h4>
                                         <p>
-                                            <a href="mailto:LittleLambs@gmail.com">LittleLambs@gmail.com</a>
+                                            <a href="mailto:mail.littlelambs@gmail.com">mail.littlelambs@gmail.com</a>
                                         </p>
                                     </div>
                                 </div>

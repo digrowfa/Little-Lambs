@@ -66,8 +66,8 @@ const MobileNavigation = () => {
                         </ul>
                         <h4>Visit Us Daily:</h4>
                         <p>Villa no 22 317- 33rd Street Near Mankhool Park/ADCB metro station Bur Dubai</p>
-                        <p><FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:LittleLambs@gmail.com">LittleLambs@gmail.com</a></p>
-                        <p><FontAwesomeIcon icon={faPhone} /> <a href="tel:1234567890">1234567890</a></p>
+                        <p><FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:mail.littlelambs@gmail.com">mail.littlelambs@gmail.com</a></p>
+                        <p><FontAwesomeIcon icon={faPhone} /> <a href="tel:+971 504812715">+971 504812715</a></p>
                     </div>
                 </div>
             </div>
