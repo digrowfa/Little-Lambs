@@ -271,6 +271,27 @@
     .differenceBodyApproachCard p{
         font-size: 16px;
     }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 380px) and (max-width: 424.98px) {
@@ -301,6 +322,27 @@
     }
     .differenceBodyApproachCard p{
         font-size: 16px;
+    }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
     }
 }
 
@@ -333,6 +375,27 @@
     .differenceBodyApproachCard p{
         font-size: 16px;
     }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 768.98px) {
@@ -363,6 +426,27 @@
     }
     .differenceBodyApproachCard p{
         font-size: 16px;
+    }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
     }
 }
 
@@ -395,6 +479,27 @@
     .differenceBodyApproachCard p{
         font-size: 16px;
     }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1023.98px) {
@@ -426,6 +531,27 @@
     .differenceBodyApproachCard p{
         font-size: 16px;
     }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
@@ -456,6 +582,27 @@
     }
     .differenceBodyApproachCard p{
         font-size: 16px;
+    }
+    .LLNOfferTitle h2{
+        font-size: 30px;
+    }
+    .LLNOfferCardBox{
+        display: inherit;
+    }
+    .LLNOfferCard{
+        width: 100%;
+    }
+    .LLNOfferCard.popular{
+        width: 100%;
+    }
+    .LLNOfferCard.popular .LLNOfferCardIcon img{
+        max-width: 60px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardName h4{
+        font-size: 26px;
+    }
+    .LLNOfferCard.popular .LLNOfferCardContent ul li span{
+        font-size: 50px;
     }
 }
 
