@@ -24,9 +24,9 @@ const Header = () => {
                                     </div>
                                     <div className="contactWaysContent">
                                         <h4>Visit Us Daily:</h4>
-                                        <p>Villa no 22
-                                            317- 33rd Street
-                                            Near Mankhool Park/ADCB metro station
+                                        <p>Villa no 22,
+                                            317- 33rd Street,
+                                            Near Mankhool Park/ADCB metro station,
                                             Bur Dubai</p>
                                     </div>
                                 </div>

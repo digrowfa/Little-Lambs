@@ -65,7 +65,10 @@ const MobileNavigation = () => {
                             </Link>
                         </ul>
                         <h4>Visit Us Daily:</h4>
-                        <p>Villa no 22 317- 33rd Street Near Mankhool Park/ADCB metro station Bur Dubai</p>
+                        <p>Villa no 22,
+                            317- 33rd Street,
+                            Near Mankhool Park/ADCB metro station,
+                            Bur Dubai</p>
                         <p><FontAwesomeIcon icon={faEnvelope} /> <a href="mailto:mail.littlelambs@gmail.com">mail.littlelambs@gmail.com</a></p>
                         <p><FontAwesomeIcon icon={faPhone} /> <a href="tel:+971 504812715">+971 504812715</a></p>
                     </div>

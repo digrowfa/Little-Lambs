@@ -94,7 +94,7 @@
     font-size: 23px;
     letter-spacing: .09em;
     text-align: justify;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     margin: 3rem 0;
 }
 
@@ -364,7 +364,7 @@
     width: 300px;
     height: 350px;
     background-color: var(--white);
-    box-shadow: 10px 11px 30px rgba(0, 0, 0, 0.09);
+    /* box-shadow: 10px 11px 30px rgba(0, 0, 0, 0.09); */
     border-radius: 30px;
     position: relative;
     margin-bottom: 2rem;
@@ -387,26 +387,32 @@
 
 .SSEPCard.card1 {
     background-image: url(../../img/program/1.webp);
+    background-color: #ff707024;
 }
 
 .SSEPCard.card2 {
     background-image: url(../../img/program/2.webp);
+    background-color: #ffe35224;
 }
 
 .SSEPCard.card3 {
     background-image: url(../../img/program/3.webp);
+    background-color: #45de5e29;
 }
 
 .SSEPCard.card4 {
     background-image: url(../../img/program/4.webp);
+    background-color: #3db9ff29;
 }
 
 .SSEPCard.card5 {
     background-image: url(../../img/program/5.webp);
+    background-color: #925fff24;
 }
 
 .SSEPCard.card6 {
     background-image: url(../../img/program/6.webp);
+    background-color: #f68be52e;
 }
 
 .SSEPCard.card1 p {

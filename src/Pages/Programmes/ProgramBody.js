@@ -59,7 +59,7 @@ const ProgramBody = () => {
                                         <li>
                                             <div className='programBodyCircleCard card1'>
                                                 <p>Foods that the
-                                                    child eats</p>
+                                                    child eat</p>
                                             </div>
                                         </li>
                                         <li>
@@ -154,9 +154,7 @@ const ProgramBody = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className='programBodyContent'>
-                                    <p>Conversation skills-this involves the various conversation rules like taking turns, listening first, facial expressions and appropriate gestures.</p>
-                                </div>
+                                
                                 <div className='programBodyContent pink'>
                                     <h4>Social Studies Education Program</h4>
                                     <p>SSEP will focus on the study of people and the ways they relate to others. The program will include</p>

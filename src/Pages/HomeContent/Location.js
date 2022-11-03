@@ -11,9 +11,9 @@ const Location = () => {
                             <div className="row">
                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div className="homeLocationContent">
-                                        <p>Villa no 22
-                                            317- 33rd Street
-                                            Near Mankhool Park/ADCB metro station
+                                        <p>Villa no 22,
+                                            317- 33rd Street,
+                                            Near Mankhool Park/ADCB metro station,
                                             Bur Dubai</p>
                                         <button>Visit Now <img src={rightArrow} alt="rightArrow" className="img-fluid" /></button>
                                     </div>

@@ -104,7 +104,7 @@
 .founderWords p {
     font-size: 23px;
     letter-spacing: 0.09em;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #6A6A6A;
     text-align: justify;
 }
@@ -123,7 +123,7 @@
 }
 
 .aboutWhyLLN p {
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #656565;
     font-size: 23px;
     margin: 1rem 0;
@@ -154,7 +154,7 @@
     font-size: 23px;
     color: #656565;
     margin-top: 2rem;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 .myChildSubject {
@@ -212,7 +212,7 @@
 .myChlidContent p {
     font-size: 23px;
     letter-spacing: 0.09em;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #6A6A6A;
     text-align: justify;
 }
@@ -277,7 +277,7 @@
 .founderContent p {
     font-size: 23px;
     letter-spacing: 0.09em;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: var(--white);
     margin: 3rem 0;
     text-align: justify;
@@ -298,7 +298,7 @@
 .founderCard p {
     font-size: 23px;
     letter-spacing: 0.09em;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: var(--white);
     text-align: justify;
 }

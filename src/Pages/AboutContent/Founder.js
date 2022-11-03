@@ -7,9 +7,9 @@ const Founder = () => {
                         <div className="row d-flex justify-content-center">
                             <div className="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
                                 <div className="founderContent">
-                                    <h2>I, Dr. Yogita Maledan and the founder of Little Lambs Nursery<br />
+                                    <h2>We, Dr. Yogita Maledan(CEO & FOUNDER) and Nishtha Righwani(FOUNDER)  of Little Lambs Nursery<br />
                                         takes a pledge….</h2>
-                                    <p> At any time, children will always come first. With LLN, every day will be a new learning experience/opportunity for your child. Little Lambs Nursery pledges to provide a safe and secure home away from home. As the CEO/ Managing director of Little Lambs Nursery, I would love to invite you to our Al Karama branch to find out more about the way we work, and experience how we have embarked on a positive learning journey with our little ones and the support of our fabulous staff/parents.</p>
+                                    <p> At any time, children will always come first. With LLN, every day will be a new learning experience/opportunity for your child. Little Lambs Nursery pledges to provide a safe and secure home away from home. As the CEO/ Managing director of Little Lambs Nursery, We would love to invite you to our Al-Man Khool branch to find out more about the way we work, and experience how we have embarked on a positive learning journey with our little ones and the support of our fabulous staff/parents.</p>
                                 </div>
                                 <div className="founderCard">
                                     <h4>Vision</h4>
@@ -17,7 +17,7 @@ const Founder = () => {
                                 </div>
                                 <div className="founderCard">
                                     <h4>Mission</h4>
-                                    <p>Promoting excellence and quality service in the field of education through clear policies and procedures to ensure customer satisfaction and create a culture of inclusion and empowerment to enhance organizational development.</p>
+                                    <p>To provide outstanding nurturing support and environment to children thereby enabling the development to achieve holistic growth with several opportunities to develop the child’s potential; achieving this through positive reinforcement; inspiring children to begin a learning journey with life-long enjoyment, the first step towards the best.</p>
                                 </div>
                                 <div className="founderCard">
                                     <h4>Values</h4>

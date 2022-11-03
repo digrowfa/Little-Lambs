@@ -43,10 +43,13 @@ const Footer = () => {
                                             <Link to="#">Pre School</Link>
                                         </li>
                                         <li>
-                                            <Link to="#">Kinder</Link>
+                                            <Link to="#">Nursery</Link>
                                         </li>
                                         <li>
-                                            <Link to="#">Nursery</Link>
+                                            <Link to="#">Foudation Stages</Link>
+                                        </li>
+                                        <li>
+                                            <Link to="#">Smart Juniors</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -75,15 +78,18 @@ const Footer = () => {
                                     <h4>ADDRESS</h4>
                                     <ul>
                                         <li>
-                                        Villa no 22 317- 33rd Street Near Mankhool Park/ADCB metro station Bur Dubai
+                                        Villa no 22,
+                                            317- 33rd Street,
+                                            Near Mankhool Park/ADCB metro station,
+                                            Bur Dubai
                                         </li>
                                     </ul>
 
                                     <h4>TIMINGS</h4>
                                     <ul>
                                         <li>
-                                            Monday - Saturday<br />
-                                            7:30 AM- 5:00 PM
+                                            Monday - Friday<br />
+                                            7:00 AM - 6:00 PM
                                         </li>
                                     </ul>
                                 </div>

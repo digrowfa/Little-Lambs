@@ -27,7 +27,7 @@ const LLNOffers = () => {
                                                 <img src={img1} alt="img1" className='img-fluid' />
                                             </div>
                                             <div className="LLNOfferCardName">
-                                                <h4>Basic</h4>
+                                                <h4>Easy Start</h4>
                                             </div>
                                         </div>
                                         <div className='LLNOfferCardContent'>
@@ -47,7 +47,7 @@ const LLNOffers = () => {
                                                 <img src={img2} alt="img2" className='img-fluid' />
                                             </div>
                                             <div className="LLNOfferCardName">
-                                                <h4>Enterprise</h4>
+                                                <h4>Start Smart</h4>
                                             </div>
                                         </div>
                                         <div className='LLNOfferCardContent'>
@@ -66,7 +66,7 @@ const LLNOffers = () => {
                                                 <img src={img3} alt="img3" className='img-fluid' />
                                             </div>
                                             <div className="LLNOfferCardName">
-                                                <h4>startup</h4>
+                                                <h4>Growth Plan</h4>
                                             </div>
                                         </div>
                                         <div className='LLNOfferCardContent'>
