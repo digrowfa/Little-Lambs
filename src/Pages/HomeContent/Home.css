@@ -1159,9 +1159,7 @@
     .LLNCategoryBg::before{
         top: -14rem;
     }
-    .LLNCategoryName ul{
-        overflow: scroll;
-    }
+   
     .LLNCategoryBg::after{
         bottom: -2px;
     }
