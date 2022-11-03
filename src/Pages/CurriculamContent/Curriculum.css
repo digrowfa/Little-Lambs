@@ -99,6 +99,7 @@
     right: -8rem;
     border-radius: 50%;
     opacity: 0.5;
+    z-index: -1;
 }
 
 .curriculumEffect1::before {
@@ -160,6 +161,7 @@
     right: 8rem;
     border-radius: 50%;
     opacity: 0.5;
+    z-index: -1;
 }
 
 .curriculumEffect3::before {
@@ -172,6 +174,7 @@
     left: -9rem;
     border-radius: 50%;
     opacity: 0.5;
+    z-index: -1;
 }
 
 .curriculumEffect4 {
@@ -189,6 +192,7 @@
     right: -18rem;
     border-radius: 50%;
     opacity: 0.5;
+    z-index: -1;
 }
 
 .curriculumEffect4::before {
@@ -200,6 +204,7 @@
     top: 440rem;
     right: -9rem;
     border-radius: 50%;
+    z-index: -1;
 }
 
 
@@ -220,6 +225,7 @@
     left: 4rem;
     border-radius: 50%;
     opacity: 0.5;
+    z-index: -1;
 }
 
 .curriculumEffect5:before {
@@ -250,6 +256,7 @@
     background-image: url(../../img/curriculum/icon1.webp);
     top: 550rem;
     right: 2rem;
+    z-index: -1;
 }
 
 .curriculumEffect6:before {
@@ -279,6 +286,7 @@
     top: 720rem;
     right: -8rem;
     border-radius: 50%;
+    z-index: -1;
 }
 
 .curriculumEffect7::before {
@@ -292,6 +300,7 @@
     right: 5rem;
     border-radius: 50%;
     opacity: 0.5;
+    z-index: -1;
 }
 
 @media (min-width: 319.98px) and (max-width: 379.98px) {
