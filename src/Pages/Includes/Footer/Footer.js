@@ -6,8 +6,13 @@ import instagram from '../../../img/icons/footerInstagram.webp'
 import twitter from '../../../img/icons/footerTwitter.webp'
 import youtube from '../../../img/icons/footerYoutube.webp'
 import linkedin from '../../../img/icons/footerLinkedin.webp'
+import React, { useState } from 'react'
+import EnrollFormModal from '../EnrollForm/EnrollFormModal'
 
 const Footer = () => {
+
+    const [modalShow, setModalShow] = useState(false);
+
     return (
         <>
             <section className="container-fluid p-0">
@@ -19,7 +24,11 @@ const Footer = () => {
                                     <ul>
                                         <li>Enroll Your Child At Little Lambs Nursery</li>
                                         <li>
-                                            <button>Click Here</button>
+                                            <button onClick={() => setModalShow(true)}>Click Here</button>
+                                            <EnrollFormModal
+                                                show={modalShow}
+                                                onHide={() => setModalShow(false)}
+                                            />
                                         </li>
                                     </ul>
                                 </div>
@@ -78,7 +87,7 @@ const Footer = () => {
                                     <h4>ADDRESS</h4>
                                     <ul>
                                         <li>
-                                        Villa no 22,
+                                            Villa no 22,
                                             317- 33rd Street,
                                             Near Mankhool Park/ADCB metro station,
                                             Bur Dubai
