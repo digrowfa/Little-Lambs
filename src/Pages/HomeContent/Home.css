@@ -33,7 +33,7 @@
     font-family: enrollBtn;
     color: var(--white);
     font-size: 14px;
-    z-index: 99;
+    z-index: 1;
     margin: 2.3rem 1.5rem;
     transform: rotate(358deg);
 }
